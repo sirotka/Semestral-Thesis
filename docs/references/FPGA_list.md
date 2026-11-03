@@ -1,4 +1,4 @@
-# FPGA candidate comparison for DE1/DE2 teaching platform
+# FPGA candidate comparison for DE1 teaching platform
 
 **Research snapshot:** 2026-11-03 (DigiKey Czech Republic web listings; quantity 1, CZK excluding VAT).  
 **Decision status:** `LFE5U-25F-7TG144C` remains **SELECTED**. All other devices are **comparison candidates only**. No component-change decision was made.
@@ -8,7 +8,7 @@
 | Exact device | Logic capacity | Embedded RAM | User I/O in stated package | Package | HDMI-compatible output | HDL synthesis / P&R | DigiKey CZ, 1 pc excl. VAT; stock shown | Status |
 |---|---:|---:|---:|---|---|---|---|---|
 | **LFE5U-25F-7TG144C** | 24,000 4-LUTs | 1,008 Kbit EBR | **98** | 144-TQFP, 20 × 20 mm | **Not yet verified**: no hard SERDES; requires valid high-speed TMDS-capable pins/serializer or external transmitter | Yosys + nextpnr-ecp5 / Project Trellis | **461.14 Kč; 147 in stock** | **SELECTED (unchanged)** |
-| LFE5U-12F-8TG144I | 12,000 4-LUTs | 576 Kbit EBR | 98 | 144-TQFP, 20 × 20 mm | Not verified; same general ECP5 I/O questions; less logic/BRAM | Yosys + nextpnr-ecp5 / Project Trellis | 430.58 Kč; 195 in stock | Candidate - lower logic capacity |
+| LFE5U-12F-8TG144I | 12,000 4-LUTs | 576 Kbit EBR | 98 | 144-TQFP, 20 × 20 mm | Not verified; same general ECP5 I/O questions; less logic/BRAM | Yosys + nextpnr-ecp5 / Project Trellis | 430.58 Kč; 195 in stock | Candidate (lower logic capacity) |
 | LFE5U-25F-6BG256C | 24,000 4-LUTs | 1,008 Kbit EBR | 197 | 256-CABGA, 14 × 14 mm | Not verified; more pin-placement freedom, **not** evidence of compliant HDMI | Yosys + nextpnr-ecp5 / Project Trellis | 449.78 Kč; 75 in stock | Candidate - BGA assembly complexity |
 | ICE40UP5K-SG48I | 5,280 logic cells (LUT4 + FF) | 120 Kbit EBR + 1,024 Kbit SPRAM | 39 | 48-QFN, 7 × 7 mm | Not verified; 39 pins inadequate for current proposed **64/72-signal** teaching allocation | Yosys + nextpnr-ice40 / IceStorm | 240.03 Kč; **0 in stock** | Candidate - GPIO insufficient |
 | ICE40HX8K-CT256 | 7,680 logic cells (LUT4 + FF) | 128 Kbit EBR | 206 | 256-CABGA, 14 × 14 mm | Not verified; I/O speed/pairs and timing require separate evaluation | Yosys + nextpnr-ice40 / IceStorm | 427.06 Kč; **0 in stock** | Candidate - BGA and smaller logic |
