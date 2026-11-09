@@ -11,8 +11,8 @@ Status: Preliminary Layout
 |---|---|---|---|---|---|
 | Standard LEDs | 4 | Lab 4; Project 1: PWM Breathing LED | Main PCB | 4 | Not confirmed |
 | RGB LED | 1 | Project 1: PWM Breathing LED | Main PCB | 3 | Not confirmed |
-| Slide switches | 4 | Lab 1: Logic Gates; Lab 2: Comparator; Project 1: PWM Breathing LED; Project 3: Digital Safe | Main PCB | Not confirmed |
-| Push buttons | 5 | Lab 4: Counter; Lab 6: Debouncing; Projects 2–5 | Main PCB | Not confirmed |
+| Slide switches | 4 | Lab 1: Logic Gates; Lab 2: Comparator; Project 1: PWM Breathing LED; Project 3: Digital Safe | Main PCB | 4 | Not confirmed |
+| Push buttons | 5 | Lab 4: Counter; Lab 6: Debouncing; Projects 2–5 | Main PCB | 5 | Not confirmed |
 | 7-segment display | 2 digits | Labs 3–5; Projects 2–6 | Main PCB | 10 | Not confirmed |
 | Buzzer | 1 | Project 5: Alarm Clock | Main PCB | 1 | Not confirmed |
 
