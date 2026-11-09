@@ -44,13 +44,13 @@ Status: Preliminary Layout
 ## 4. Verilog Group Projects 2026
 
 | Project | Peripherals | Required Module(s) |
-| :--- | :---: | :---: | :---: | :--- | :--- |
-| **1. PWM Breathing LED** | 16x LED, 1x Switch | Counter |
-| **2. Digital Stopwatch (Lap)** | 8x 7-seg, Buttons | Counter, Debouncer |
-| **3. Digital Safe** | Switches, 7-seg, Buttons | Debouncer |
-| **4. 7-segment Snake** | 8x 7-seg, Buttons | Debouncer, Counter |
-| **5. Alarm Clock** | 7-seg, Buttons, Buzzer | Debouncer |
-| **6. Ultrasound HS-SR04** | HS-SR04 (Pmod), 7-seg | Counter, Debouncer |
+|---|---|---|---|---|---|
+| 1. PWM Breathing LED | 16x LED, 1x Switch | Counter |
+| 2. Digital Stopwatch (Lap) | 8x 7-seg, Buttons | Counter, Debouncer |
+| 3. Digital Safe | Switches, 7-seg, Buttons | Debouncer |
+| 4. 7-segment Snake | 8x 7-seg, Buttons | Debouncer, Counter |
+| 5. Alarm Clock | 7-seg, Buttons, Buzzer | Debouncer |
+| 6. Ultrasound HS-SR04 | HS-SR04 (Pmod), 7-seg | Counter, Debouncer |
 
 ## 5. Sources
 
