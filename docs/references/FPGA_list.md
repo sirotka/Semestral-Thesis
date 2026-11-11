@@ -21,13 +21,16 @@ Note: AMD logic cells and Lattice LUTs are not directly comparable. User I/O val
 
 ### 1.1 Standalone FPGA: Strengths and Weaknesses
 
-**LFE5U-25F-7TG144C (custom PCB):**
+**LFE5U-25F-7TG144C (custom PCB)**
+
 Strengths: 
+
 - TQFP is easier to inspect and assemble than BGA.
 - Flexible interface layout.
 - Open-source Yosys/nextpnr design chain. 
 
 Weaknesses: 
+
 - Independent design of the power supply (including required core/I/O voltages), Flash, JTAG, oscillator, and high-frequency video path.
 - Pinout/bank verification and professional assembly or another reliable manufacturing process are required. Historically selected components for this application: IS25LP064A-JBLE (configuration Flash) and TPS62142RGTT (3.3 V buck).
 - These do not need to be automatically carried over to the carrier PCB BOM of the finished FPGA module.
@@ -46,8 +49,10 @@ Weaknesses:
 
 ### 2.1 Modules: Strengths and Weaknesses
 
-**iCESugar-Pro ready-to-use FPGA modules:**
+**iCESugar-Pro (ready-to-use FPGA module)**
+
 Strengths: 
+
 - Built-in iCELink programmer with a USB-C connector.
 - 106 GPIO pins for connecting educational peripherals and a video output.
 - 32 MB of SDRAM and 32 MB of SPI flash memory.
@@ -55,7 +60,9 @@ Strengths:
 - Available with an Ext-Board for testing before manufacturing a custom PCB.
 - Built-in RGB LED and microSD card slot.
 - Low price: approximately 1483 CZK for the module and Ext-Board.
-Weaknesses: 
+
+Weaknesses:
+
 - Large SODIMM-200 connector.
 - Additional hardware development is required for HDMI output.
 
