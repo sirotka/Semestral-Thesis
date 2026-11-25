@@ -1,4 +1,3 @@
-
 # Comparison of Individual FPGA Chips
 
 When designing an educational board, it is not only the size of the programmable logic that matters, but also the hardware resources of the chip itself: clock generators and distribution, PLLs, on-chip memory, DSPs, specialized controllers, hardware support for LEDs, differential lines, configuration, and available user pins. The tables below do not confuse an FPGA hardware IP block with a software/HDL module that can be implemented in logic cells.
@@ -61,12 +60,11 @@ Example of simultaneously active FPGA I/O: 4 LEDs + 4 buttons + 10 lines for a t
 
 | Item | Historical Price per Chip | Date and Seller | Total Cost Details |
 |---|---:|---|---|
-| LFE5U-25F-7TG144C | 482.44 CZK excluding VAT | Nov. 21-22, 2026, DigiKey CZ | external Flash, 3 rails, JTAG/USB, oscillator, assembly |
-| LFE5U-12F-6TG144C | 337.47 CZK (tax base to be confirmed) | Nov. 21-22, 2026, market research | similar ECP5 circuit blocks |
-| GW1N-LV9LQ144C6/I5 | 752.34 CZK (tax base to be confirmed) | Nov. 21-22, 2026, Mouser CZ | integrated configuration Flash, but not a complete BOM |
-| EP4CE6E22I7N | 507.56 CZK (tax base to be confirmed) | Nov. 21-22, 2026, market research | external Flash, rails, PCB |
+| LFE5U-25F-7TG144C | 482.44 CZK excluding VAT | 21.11.2026 to 22.11.2026, DigiKey CZ | external Flash, 3 rails, JTAG/USB, oscillator, assembly |
+| LFE5U-12F-6TG144C | 337.47 CZK (tax base to be confirmed) | 21.11.2026 to 22.11.2026, market research | similar ECP5 circuit blocks |
+| GW1N-LV9LQ144C6/I5 | 752.34 CZK (tax base to be confirmed) | 21.11.2026 to 22.11.2026, Mouser CZ | integrated configuration Flash, but not a complete BOM |
+| EP4CE6E22I7N | 507.56 CZK (tax base to be confirmed) | 21.11.2026 to 22.11.2026, market research | external Flash, rails, PCB |
 | GateMate A1/A2 | No comparable confirmed price available | Not specified | BGA, Pmod translators, assembly |
-
 
 ## 6. Comparative Advantages and Limitations
 
